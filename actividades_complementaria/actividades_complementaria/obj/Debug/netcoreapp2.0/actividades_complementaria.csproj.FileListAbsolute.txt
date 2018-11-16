@@ -1,0 +1,11 @@
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\bin\Debug\netcoreapp2.0\actividades_complementaria.deps.json
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\bin\Debug\netcoreapp2.0\actividades_complementaria.runtimeconfig.json
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\bin\Debug\netcoreapp2.0\actividades_complementaria.runtimeconfig.dev.json
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\bin\Debug\netcoreapp2.0\actividades_complementaria.dll
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\obj\Debug\netcoreapp2.0\actividades_complementaria.csprojAssemblyReference.cache
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\obj\Debug\netcoreapp2.0\actividades_complementaria.csproj.CoreCompileInputs.cache
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\obj\Debug\netcoreapp2.0\actividades_complementaria.AssemblyInfoInputs.cache
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\obj\Debug\netcoreapp2.0\actividades_complementaria.AssemblyInfo.cs
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\bin\Debug\netcoreapp2.0\actividades_complementaria.pdb
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\obj\Debug\netcoreapp2.0\actividades_complementaria.dll
+C:\Users\tapimo\source\repos\actividades_complementaria\actividades_complementaria\obj\Debug\netcoreapp2.0\actividades_complementaria.pdb

@@ -1,0 +1,81 @@
+﻿@model actividades_complementaria.Models.carrera
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>carrera</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Carrera)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Carrera)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.reticula)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.reticula)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.nivel_escolar)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nivel_escolar)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.clave_oficial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.clave_oficial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_carrera)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombre_carrera)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_reducido)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombre_reducido)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.carga_maxima)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.carga_maxima)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.creditos_totales)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.creditos_totales)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.nivel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nivel)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.modalidad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.modalidad)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idcarrera" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

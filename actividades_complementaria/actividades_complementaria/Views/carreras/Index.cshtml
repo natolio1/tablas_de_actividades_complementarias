@@ -1,0 +1,89 @@
+﻿@model IEnumerable<actividades_complementaria.Models.carrera>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Carrera)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.reticula)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nivel_escolar)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.clave_oficial)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombre_carrera)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombre_reducido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.carga_maxima)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.creditos_totales)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nivel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.modalidad)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carrera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.reticula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nivel_escolar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.clave_oficial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre_carrera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre_reducido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.carga_maxima)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.creditos_totales)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nivel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.modalidad)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idcarrera">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idcarrera">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idcarrera">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

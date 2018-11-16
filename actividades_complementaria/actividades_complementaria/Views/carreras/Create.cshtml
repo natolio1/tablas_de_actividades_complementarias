@@ -1,0 +1,78 @@
+﻿@model actividades_complementaria.Models.carrera
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>carrera</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Carrera" class="control-label"></label>
+                <input asp-for="Carrera" class="form-control" />
+                <span asp-validation-for="Carrera" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="reticula" class="control-label"></label>
+                <input asp-for="reticula" class="form-control" />
+                <span asp-validation-for="reticula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nivel_escolar" class="control-label"></label>
+                <input asp-for="nivel_escolar" class="form-control" />
+                <span asp-validation-for="nivel_escolar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="clave_oficial" class="control-label"></label>
+                <input asp-for="clave_oficial" class="form-control" />
+                <span asp-validation-for="clave_oficial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nombre_carrera" class="control-label"></label>
+                <input asp-for="nombre_carrera" class="form-control" />
+                <span asp-validation-for="nombre_carrera" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nombre_reducido" class="control-label"></label>
+                <input asp-for="nombre_reducido" class="form-control" />
+                <span asp-validation-for="nombre_reducido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="carga_maxima" class="control-label"></label>
+                <input asp-for="carga_maxima" class="form-control" />
+                <span asp-validation-for="carga_maxima" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="creditos_totales" class="control-label"></label>
+                <input asp-for="creditos_totales" class="form-control" />
+                <span asp-validation-for="creditos_totales" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nivel" class="control-label"></label>
+                <input asp-for="nivel" class="form-control" />
+                <span asp-validation-for="nivel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="modalidad" class="control-label"></label>
+                <input asp-for="modalidad" class="form-control" />
+                <span asp-validation-for="modalidad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
